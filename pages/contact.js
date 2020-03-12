@@ -4,7 +4,7 @@ import Link from "next/link";
 const Home = () => (
   <div className="container">
     <Head>
-      <title>Index</title>
+      <title>Contact</title>
       <link rel="icon" href="/favicon.ico" />
       <script
         async
@@ -17,11 +17,10 @@ const Home = () => (
     </Head>
 
     <main>
-      <h1 className="title">Simple Analytics</h1>
-      <p className="description">Test app with Simple Analytics and Next.js</p>
+      <h1 className="title">Contact</h1>
       <p>
-        <Link href="/contact">
-          <a>Go to contact</a>
+        <Link href="/">
+          <a>Go back home</a>
         </Link>
       </p>
     </main>
