@@ -7,7 +7,10 @@ export default class extends Document {
       <html>
         <Head>
           {/* Simple Analytics script */}
-          <script async src={`https://cdn.simpleanalytics.io/hello.js`} />
+          <script
+            async
+            src={`https://scripts.simpleanalyticscdn.com/latest.js`}
+          />
         </Head>
         <body>
           <Main />
